@@ -1,0 +1,10 @@
+1;João Silva;28;10
+2;Carlos Pereira;30;9
+3;Michael Jordan;58;23
+4;Stephen Curry;33;30
+5;Ana Souza;26;7
+6;Lucas Lima;29;12
+7;Maria Oliveira;24;4
+8;Pedro Santos;27;15
+9;Ricardo Alves;31;8
+10;Fernanda Costa;22;5

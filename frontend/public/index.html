@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciamento Esportivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento Esportivo</h1>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Esportes</h2>
+            <form id="form-esporte" class="form-inline">
+                <input type="text" id="nome-esporte" placeholder="Nome do Esporte" required>
+                <button type="submit" class="btn-adicionar">Adicionar</button>
+            </form>
+            <ul id="lista-esportes" class="list"></ul>
+        </section>
+        <section class="card">
+            <h2>Times</h2>
+            <form id="form-time" class="form-grid">
+                <input type="text" id="nome-time" placeholder="Nome do Time" required>
+                <input type="number" id="ano-fundacao" placeholder="Ano Fundação" required>
+                <input type="number" id="qtd-titulos" placeholder="Qtd Títulos" required>
+                <input type="text" id="titulos" placeholder="Títulos (separados por vírgula)">
+                <select id="esporte-id-time" required></select>
+                <button type="submit" class="btn-adicionar">Adicionar</button>
+            </form>
+            <ul id="lista-times" class="list"></ul>
+        </section>
+        <section class="card">
+            <h2>Jogadores</h2>
+            <form id="form-jogador" class="form-grid">
+                <input type="text" id="nome-jogador" placeholder="Nome do Jogador" required>
+                <input type="number" id="idade-jogador" placeholder="Idade" required>
+                <input type="number" id="camisa-jogador" placeholder="Camisa" required>
+                <input type="number" id="salario-jogador" placeholder="Salário" required>
+                <select id="time-id-jogador" required></select>
+                <select id="esporte-id-jogador" required></select>
+                <button type="submit" class="btn-adicionar">Adicionar</button>
+            </form>
+            <ul id="lista-jogadores" class="list"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+1;Flamengo;1895
+2;Corinthians;1910
+3;Lakers;1947
+4;Warriors;1946
+5;Santos Vôlei;2010
+6;Minas Tênis;1935
+7;Natação Brasil;1920
+8;Handebol SP;1980
+9;Rugby Rio;2005
+10;Atletismo RJ;1925
